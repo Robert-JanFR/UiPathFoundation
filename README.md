@@ -2,4 +2,4 @@
 All Practice Excercises for the UiPath Foundation course
 
 
-All excercises up to the Data Manipulation Course have been finished
+All excercises in this repository have been finished
