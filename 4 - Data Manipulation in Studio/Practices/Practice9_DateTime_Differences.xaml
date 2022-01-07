@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Practice9_DateTime_Differences" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1150,827" sap2010:WorkflowViewState.IdRef="Practice9_DateTime_Differences_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Practice9_DateTime_Differences" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1162,827" sap2010:WorkflowViewState.IdRef="Practice9_DateTime_Differences_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="25">
       <x:String>System.Activities</x:String>
@@ -53,25 +53,15 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Practice9_DateTime_Differences" sap:VirtualizedContainerService.HintSize="376,283" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="s:DateTime" Name="Server1StartDate">
-        <Variable.Default>
-          <mva:VisualBasicValue x:TypeArguments="s:DateTime" ExpressionText="DateTime.ParseExact(“19/05/2021 20:15:07”, &quot;dd/MM/yyyy HH:mm:ss&quot;, nothing)" />
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="s:DateTime" Name="Server2StartDate">
-        <Variable.Default>
-          <mva:VisualBasicValue x:TypeArguments="s:DateTime" ExpressionText="Datetime.ParseExact(“08/03/2021 13:12:10”, &quot;dd/MM/yyyy HH:mm:ss&quot;, nothing)" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="s:DateTime" Default="[DateTime.ParseExact(“19/05/2021 20:15:07”, &quot;dd/MM/yyyy HH:mm:ss&quot;, nothing)]" Name="Server1StartDate" />
+      <Variable x:TypeArguments="s:DateTime" Default="[Datetime.ParseExact(“08/03/2021 13:12:10”, &quot;dd/MM/yyyy HH:mm:ss&quot;, nothing)]" Name="Server2StartDate" />
       <Variable x:TypeArguments="x:TimeSpan" Name="DateDifference" />
-      <Variable x:TypeArguments="x:String" Name="PrintString" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">

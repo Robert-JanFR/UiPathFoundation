@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WfuFrEf6u8wG8/qZ6un9g3S83sftbwugVeUQJiuQpYvXqo2uVOHLoq4zzc7qrr1ZEnyCMfEYeXsEjdP4cEFU1Q==",
+  "dgSpecHash": "tUVRptrbmGPFX5YOk+Q+gvzAt26/cTzEEo7074iHIXCAwYTKt+npp3zbxkQdxmxCJ7Nbs/U4/kwixMYic+E6Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Robert-JanVrieling\\OneDrive - Flow Robotics\\Documents\\UiPath 2 (improved project structure)\\4 - Data Manipulation in Studio (Not Finished)\\.local\\",
+  "projectFilePath": "C:\\Users\\Robert-JanVrieling\\OneDrive - Flow Robotics\\Documents\\UiPath 2 (improved project structure)\\4 - Data Manipulation in Studio\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Robert-JanVrieling\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\Robert-JanVrieling\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
