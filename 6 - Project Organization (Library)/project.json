@@ -1,0 +1,54 @@
+{
+  "name": "AcmeLibrary",
+  "description": "Blank Library",
+  "main": "Login.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "2.11.4",
+    "UiPath.System.Activities": "20.10.4",
+    "UiPath.UIAutomation.Activities": "20.10.9"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.23",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Navigate to home page.xaml",
+        "WorkItems/Navigate to work items.xaml",
+        "Invoices/Navigate to all invoices.xaml",
+        "Invoices/Navigate to invoice search by Vendor Tax ID.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
